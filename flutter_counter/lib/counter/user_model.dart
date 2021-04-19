@@ -1,0 +1,1 @@
+class UserModel {  final String name, age, sex;  UserModel(this.name, this.age, this.sex);}

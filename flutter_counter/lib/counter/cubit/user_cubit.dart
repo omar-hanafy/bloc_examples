@@ -1,0 +1,1 @@
+import 'package:bloc/bloc.dart';import 'package:flutter_counter/counter/user_model.dart';class UserCubit extends Cubit<UserModel>{  UserCubit(UserModel initialState) : super(initialState);  void newUser(UserModel user) => emit(user);}
