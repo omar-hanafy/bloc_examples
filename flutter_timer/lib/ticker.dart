@@ -1,1 +1,1 @@
-class Ticker {  Stream<int> tick({required int ticks}) {    return Stream.periodic(Duration(seconds: 1), (x) => ticks - x - 1).take(ticks);  }}
+class Ticker {  Stream<Duration> tick({required Duration ticks}) {    return Stream.periodic(Duration(seconds: 1), (x) => Duration(seconds: ticks.inSeconds - x - 1) );  }}
