@@ -1,4 +1,4 @@
-This is the flutter bloc examples i learned and from [bloc library](https://bloclibrary.dev/) website.
+This is the flutter bloc examples i learned from [bloc library](https://bloclibrary.dev/) website.
 
 All of these examples were made according to this info.
 
