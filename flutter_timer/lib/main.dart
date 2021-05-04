@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
+      debugShowCheckedModeBanner: false,
       theme: CupertinoThemeData(
         barBackgroundColor: Color.fromRGBO(125, 170, 206, 1),
         primaryColor: Color.fromRGBO(72, 74, 126, 1),
